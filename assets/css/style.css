@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-
+/* HEADER/NAV STYLE START */
 header {
 	display: flex;
 	justify-content:space-between;
@@ -28,7 +28,10 @@ header nav ul li a {
 	color:slategrey;
 	padding: 10px;
 }
+/* HEADER/NAV STYLE END */
 
+
+/* HERO SECTION STYLE START */
 .hero {
 	background-image: url('../images/hero.jpg');
 	background-size: cover;
@@ -39,5 +42,6 @@ header nav ul li a {
 .hero-img {
 	max-width: 100%;
 }
+/* HERO SECTION STYLE END */
 
-
+/* SECTION TITLE STYLE START */
