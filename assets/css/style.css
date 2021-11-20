@@ -8,7 +8,8 @@
 header {
 	display: flex;
 	justify-content:space-between;
-	background-color:azure
+  background-image: url("../images/hero.jpg");
+	background-size: cover;
 }
 
 header h1 {
@@ -28,6 +29,15 @@ header nav ul li a {
 	padding: 10px;
 }
 
+.hero {
+	background-image: url('../images/hero.jpg');
+	background-size: cover;
+	background-position: 80%;
+	display: flex;
+}
 
+.hero-img {
+	max-width: 100%;
+}
 
 
