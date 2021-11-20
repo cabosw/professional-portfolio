@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header {
+	display: flex;
+	justify-content:space-between;
+	background-color:azure
+}
+
+header h1 {
+	color: slategrey
+
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+	justify-content:space-between;
+} 
+
+header nav ul li a {
+	text-decoration:none;
+	color:slategrey;
+	padding: 10px;
+}
+
+
+
+
