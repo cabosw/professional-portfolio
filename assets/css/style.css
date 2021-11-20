@@ -39,9 +39,13 @@ header nav ul li a {
 	display: flex;
 }
 
-.hero-img {
+.headshot-img {
+
 	max-width: 100%;
 }
 /* HERO SECTION STYLE END */
 
 /* SECTION TITLE STYLE START */
+.section-title {
+
+}
