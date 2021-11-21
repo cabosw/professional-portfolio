@@ -5,11 +5,13 @@
 
 }
 
+
+
 /* HEADER/NAV STYLE START */
 header {
 	display: flex;
 	justify-content:space-between;
-  	background-image: url("../images/hero.jpg");
+  	background-color:rgba(164, 247, 244, 0.822);
 	background-size: cover;
 }
 
@@ -73,22 +75,34 @@ article {
 	background-size: cover;
 	background-position: 80%;
 	border: 2px solid black;
+	margin-bottom: 10px;
 }
 
 .section-title {
+	flex: 0 0 150px;
+	border-right:3px solid black;
+	margin:10px;
+	background-color: rgba(164, 247, 244, 0.822);
+}
+
+.works p {
+	text-align: center;
 }
 
 /* CONTACT ME SECTION STYLE START */
 .container nav ul {
 	list-style: none;
 	display:flex;
-	justify-content:space-between;
+}
+
+.container nav ul li {
+
 }
 
 .container nav ul li a {
 	display:flex;
-	justify-content:space-between;
 	color:black;
 	padding:10px;
 	text-decoration: none;
+	border: 1px solid black;
 }
