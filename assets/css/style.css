@@ -8,12 +8,12 @@
 header {
 	display: flex;
 	justify-content:space-between;
-  background-image: url("../images/hero.jpg");
+  	background-image: url("../images/hero.jpg");
 	background-size: cover;
 }
 
 header h1 {
-	color: slategrey
+	color: black
 
 }
 
@@ -25,7 +25,7 @@ header nav ul {
 
 header nav ul li a {
 	text-decoration:none;
-	color:slategrey;
+	color:black;
 	padding: 10px;
 }
 /* HEADER/NAV STYLE END */
@@ -45,7 +45,28 @@ header nav ul li a {
 }
 /* HERO SECTION STYLE END */
 
-/* SECTION TITLE STYLE START */
-.section-title {
 
+/* SECTION TITLE STYLE START */
+.container {
+	display:flex;
+	justify-content:space-between;
+
+}
+
+.section-title {
+}
+
+/* CONTACT ME SECTION STYLE START */
+.container nav ul {
+	list-style: none;
+	display:flex;
+	justify-content:space-between;
+}
+
+.container nav ul li a {
+	display:flex;
+	justify-content:space-between;
+	color:black;
+	padding:10px;
+	text-decoration: none;
 }
