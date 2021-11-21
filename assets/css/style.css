@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
 
 /* HEADER/NAV STYLE START */
@@ -20,6 +21,8 @@ header h1 {
 header nav ul {
 	list-style: none;
 	display: flex;
+	flex-wrap:wrap;
+	align-items:center;
 	justify-content:space-between;
 } 
 
@@ -46,11 +49,30 @@ header nav ul li a {
 /* HERO SECTION STYLE END */
 
 
-/* SECTION TITLE STYLE START */
+/* SECTION STYLE START */
+section {
+	background-size: cover;
+	background-position: 80%;
+	display: flex;
+}
 .container {
 	display:flex;
 	justify-content:space-between;
 
+}
+
+.workcontainer {
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+
+}
+
+article {
+	background-image: url('../images/hero.jpg');
+	background-size: cover;
+	background-position: 80%;
+	border: 2px solid black;
 }
 
 .section-title {
