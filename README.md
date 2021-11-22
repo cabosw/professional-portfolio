@@ -9,7 +9,9 @@ A website that displays my coding projects.
 
 ## Website
 https://cabosw.github.io/professional-portfolio/
-![Screenshot](portfolio-screenshot.jpg)
+
+##Website Screenshot
+https://github.com/cabosw/professional-portfolio/blob/main/assets/images/portfolio-screenshot.jpg?raw=true
 
 ## Contribution
 Abigail Oswald
