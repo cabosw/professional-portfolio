@@ -86,14 +86,12 @@ article {
 	flex: 0 0 150px;
 	border-right:3px solid black;
 	margin:10px;
-	background-color: rgba(164, 247, 244, 0.822);
 }
 
 .works p {
 	text-align: center;
 }
 
-/* CONTACT ME SECTION STYLE START */
 .container nav ul {
 	list-style: none;
 	display: flex;
@@ -102,9 +100,6 @@ article {
 	justify-content:space-between;
 }
 
-.container nav ul li {
-
-}
 
 .container nav ul li a {
 	display:flex;
