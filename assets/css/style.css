@@ -53,6 +53,7 @@ header nav ul li a {
 
 /* SECTION STYLE START */
 section {
+	background-color:powderblue;
 	background-size: cover;
 	background-position: 80%;
 	display: flex;
@@ -65,17 +66,20 @@ section {
 
 .workcontainer {
 	display:flex;
-	justify-content:space-between;
 	flex-wrap: wrap;
 
 }
 
 article {
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.caption {
 	background-image: url('../images/hero.jpg');
 	background-size: cover;
 	background-position: 80%;
 	border: 2px solid black;
-	margin-bottom: 10px;
 }
 
 .section-title {
@@ -92,7 +96,10 @@ article {
 /* CONTACT ME SECTION STYLE START */
 .container nav ul {
 	list-style: none;
-	display:flex;
+	display: flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
 }
 
 .container nav ul li {
